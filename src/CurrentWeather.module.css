@@ -1,0 +1,128 @@
+.current-weather{
+    display: flex;
+    flex-direction: column;
+    height: 490px;
+    width: 852px;
+    align-items: flex-start;
+    padding: 45px;
+}
+
+.weather-icon{
+    height: 98px;
+    width: 98px;
+}
+
+.temp-container{
+    display: flex;
+    height: 132px;
+    width: 188px;
+    margin-top: 5px;
+    margin-bottom: 21px;
+}
+
+.temp{
+    font-size: 110px;
+    font-family: 'inter';
+    font-weight: 100;
+    color: #FFFFFF;
+    text-shadow: -4.51px 2.26px #00000015;
+}
+
+.temp-unit{
+    font-size: 28px;
+    font-family: 'inter';
+    font-weight: 400;
+    color: #FFFFFF;
+    text-shadow: -4px 2.26px #00000015;
+}
+
+.date{
+    font-size: 33px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    text-shadow: -4px 2.26px #00000015;
+}
+
+.day-time-container{
+    display: flex;
+    height: 26px;
+    width: 242px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day{
+    font-size: 20px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 120%;
+    text-shadow: -4px 2.26px #00000015;
+}
+
+.hrline{
+    background-color: #FFFFFF;
+    height: 13.87px;
+    width: 1px;
+}
+
+.time{
+    font-size: 20px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 120%;
+    text-shadow: -4px 2.26px #00000015;
+}
+
+.infos{
+    display: flex;
+    height: 49px;
+    width: 629px;
+    margin-top: 31px;
+    justify-content: space-between;
+}
+.wind-icon{
+    height: 20px;
+    width: 20px;    
+}
+
+.rain-icon{
+    height: 20px;
+    width: 20px;   
+}
+
+.hum-icon{
+    height: 20px;
+    width: 20px;   
+}
+
+.line{
+    height: 11px;
+    width: 1px;
+    background-color: #FFFFFF;
+    align-self: self-end;
+}
+
+.wind{
+    font-size: 22px;
+    font-family: 'inter';
+    color: #FFFFFF;
+    text-shadow: -1.4px 2.1px #00000010;
+}
+
+.humidity{
+    font-size: 22px;
+    font-family: 'inter';
+    color: #FFFFFF;
+    text-shadow: -1.4px 2.1px #00000010;
+}
+
+.rain{
+    font-size: 22px;
+    font-family: 'inter';
+    color: #FFFFFF;
+    text-shadow: -1.4px 2.1px #00000010;
+}

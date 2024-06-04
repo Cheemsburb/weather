@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  display: flex;
+  height: 780px;
+  width: 1420px;
+  background-image: linear-gradient(to top right, #A8C8ED, #7673DC);
+}
+
+.main-1{
+  display: flex;
+  flex-direction: column;
+  height: 780px;
+  width: 852px;
+}
+
+.main-2{
+  display: flex;
+  flex-direction: column;
+  height: 780px;
+  width: 568px;
+  background-image: linear-gradient(to bottom right, #ffffff40, #ffffff00);
+}
+
+/* PROBLEM
+Somehow even though body is flex, main-2 start in a new line beneath the main-1 even though it have enought space. I have fix it by creating a new div that will act as the background instead of the body*/
+
+

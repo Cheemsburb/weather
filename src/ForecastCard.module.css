@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 110px;
+    border-radius: 11px;
+    background-color: #ffffff30;
+    backdrop-filter: blur(1.14px);
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.temp{
+    font-family: 'overpass';
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: -1.14px 1.71px #00000010;
+}
+
+.weather-icon{
+    height: 55px;
+    width: 55px;
+}
+
+.day{
+    font-family: 'overpass';
+    font-size: 24px;
+    color: #ffffff;
+    text-shadow: -1.14px 1.71px #00000010;
+}

@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    height: 311px;
+    width: 459px;
+    margin-left: 49px;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.container-blur{
+    display: flex;
+    height: 311px;
+    width: 459px;
+    margin-left: 49px;
+    align-items: end;
+    justify-content: space-between;
+    filter: blur(7px);
+}
+
+.sunrise-container{
+    display: flex;
+    flex-direction: column;
+    height: 305px;
+    width: 106px;
+    justify-content: end;
+}
+
+.sunrise-title{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 300;
+    text-shadow: -1.51px 2.26px #00000010;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.sunrise-design-container{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 105px;
+    border-radius: 210px;
+    background-color: #ffffff30;
+    align-items: center;
+
+}
+
+.sunrise-icon{
+    height: 77px;
+    width: 77px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.sunrise-time{
+    font-family: 'inter';
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}
+
+.goldenhour-container{
+    display: flex;
+    flex-direction: column;
+    height: 311px;
+    width: 144px;
+    align-items: center;
+}
+
+.goldenhour-title{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 300;
+    text-shadow: -1.51px 2.26px #00000010;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+.goldenhour-design-container{
+    display: flex;
+    flex-direction: column;
+    height: 245px;
+    width: 130px;
+    border-radius: 100px;
+    background-color: #ffffff30;
+    align-items: center;
+}
+
+.goldenhour-icon{
+    height: 77px;
+    width: 77px;
+    margin-top: 47px;
+    margin-bottom: 29px;
+}
+
+.golden-time-am{
+    font-size: 22px;
+    font-family: 'inter';
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.golden-time-pm{
+    font-size: 22px;
+    font-family: 'inter';
+    font-weight: 400;
+    color: #EBEBEB95;
+}
+
+.meridiem{
+    font-size: 16px;
+    font-family: 'inter';
+    font-weight: 400;
+}
+
+.sunset-icon{
+    height: 77px;
+    width: 77px;
+    margin-top: 48px;
+    margin-bottom: 20px;
+}
+
+.sunset-container{
+    display: flex;
+    flex-direction: column;
+    height: 311px;
+    width: 105px;
+    justify-content: end;
+    align-items: center;
+}
+
+.sunset-title{
+    font-family: 'inter';
+    font-size: 24px;
+    font-weight: 300;
+    text-shadow: -1.51px 2.26px #00000010;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.sunset-design-container{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 105px;
+    border-radius: 100px;
+    background-color: #ffffff30;
+    align-items: center;
+}
+
+.sunset-time{
+    font-family: 'inter';
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}

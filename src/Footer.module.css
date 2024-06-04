@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 485px;
+    margin-left: 46px;
+}
+
+.credits{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'inter';
+    color: #ffffff;
+    text-shadow: -1.51px 2.26px #00000010;
+}

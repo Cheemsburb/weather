@@ -1,0 +1,126 @@
+.search-container{
+    display: flex;
+    height: 82px;
+    width: 481px;
+    margin-top: 35px;
+    margin-left: 39px;
+    position: relative;
+  }
+  .location-icon{
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+  }
+  
+  .location-icon-hidden{
+    display: none;
+  
+  }
+  
+  .location{
+    margin-top: 10px;
+    margin-left: 35px;
+    font-family: 'inter';
+    font-weight: 300px;
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: -1.51px 2.26px #00000010;
+  }
+  
+  .location-hidden{
+    display: none;
+  }
+  
+  .search-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    min-width: 50px;
+    background-image: linear-gradient(to bottom right, #ffffff80, #ffffff20);
+    border-radius: 20px;
+    margin-left: auto;
+    position: relative;
+  }
+  
+  .search-icon{
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    top: 15px;
+    right: 13px;
+  }
+  
+  .search-input{
+    width: 1px;
+    border: none;
+    background: none;
+    text-align: center;
+    transition: 350ms;
+  }
+  
+  .search-input:focus{
+    outline: none;
+  }
+  
+  .search-input-hover{
+    width: 480px;
+    transition: 400ms;
+    border: none;
+    background: none;
+    text-align: center;
+    color: white;
+  }
+  
+  .search-input-hover:focus{
+    outline: none;
+  }
+  
+  .results-table-hidden{
+    display: none;
+  }
+  
+  .results-table{
+    position: absolute;
+    top: 70px;
+    width: 481px;
+    height: fit-content;
+    background-image: linear-gradient(to bottom right, #ffffff50, #ffffff20);
+    border-radius: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    border: none;
+    z-index: 3;
+  }
+  
+  .results{
+    font-family: 'inter';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: -1px 1px #00000050;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .results:hover{
+    background-image: linear-gradient(to bottom right, #ffffff80, #ffffff20);
+    transition: 150ms;
+  }
+  
+  .results td{
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  .results-head{
+    font-family: 'inter';
+    color: #ffffff;
+    font-size: 18px;
+    text-shadow: -1px 1px #00000050;
+  }
+  
+  .results-head th{
+    padding-right: 20px;
+  }

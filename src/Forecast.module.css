@@ -1,0 +1,8 @@
+.forecast-weather{
+    display: flex;
+    height: 290px;
+    width: 852px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  

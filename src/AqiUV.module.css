@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 237px;
+    width: 485px;
+    margin-top: 44px;
+    margin-left: 49px;
+}
+
+.line-info{
+    display: flex;
+    height: 42px;
+    width: 485px;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    height: 1px;
+    width: 403px;
+    background-color: #ffffff95;
+    margin-right: 13px;
+}
+
+.info-container{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff28;
+    border-radius: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-icon{
+    font-size: 24;
+    font-style: italic;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'inter';
+}
+
+.aqiuv-container{
+    display: flex;
+    height: 193px;
+    width: 485px;
+}
+
+.aqi-card{
+    display: flex;
+    flex-direction: column;
+    height: 155px;
+    width: 116px;
+    margin-left: 30px;
+    margin-right: 154px;
+    align-items: center;
+}
+
+.uv-card{
+    display: flex;
+    flex-direction: column;
+    height: 156px;
+    width: 124px;
+    align-items: center;
+}
+
+.title{
+    font-size: 22px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: -1.51px 2.25 #00000010;
+    margin-bottom: 10px;
+}
+
+.value{
+    font-size: 64px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: -1.51px 2.25 #00000010;
+    margin-bottom: auto;
+}
+
+.remarks{
+    font-size: 16px;
+    font-family: 'inter';
+    font-weight: 300;
+    color: #ffffff;
+    text-shadow: -1.51px 2.25 #00000010;
+    margin-bottom: 10px;
+}
